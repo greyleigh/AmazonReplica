@@ -1,0 +1,159 @@
+.root{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.new{
+    display:flex;
+    flex-flow: column;
+    gap: 10px;
+}
+#title{
+    text-align: start;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: left;
+    margin:auto;
+    margin-left: 5px;
+    padding-bottom: 15px;
+}
+
+
+
+.login{
+    display: flex;
+    border: 1px solid lightgrey;
+    max-width: 600px;
+    flex-flow:column;
+    padding: 15px;
+
+
+}
+
+input{
+    margin-top:5px;
+    margin-bottom: 10px;
+    width:360px;
+    height: 30px;
+}
+
+
+input[type=button]{
+    margin-top:20px;
+    background-color: rgb(250, 197, 100);
+    border-radius: 1px;
+    width:360px;
+    margin-bottom: 20px;
+}
+
+#mail{
+    font-size:smaller;
+}
+
+#pass{
+    font-size:smaller;
+    margin-left:50px;
+}
+
+#forgot{
+    color:blue;
+    font-size: smaller;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.line {
+    border: 1px solid black;
+    margin: 10px auto;
+    flex-grow: 1;
+}
+.text {
+    font-size: medium;
+    padding: 0 15px;
+}
+
+.amazon-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#help{
+    margin-left:15px;
+    color:blue;
+    text-decoration: none;
+}
+#account::before{
+    content:" ";
+    display: block;
+    width: 120px;
+    height:1.5px;
+    background: rgb(145, 144, 144);
+    right: 600px;
+    top: 500px;
+}
+#account::after{
+    content:" ";
+    display: block;
+    width: 120px;
+    height:1.5px;
+    background: rgb(145, 144, 144);
+    left: 450px;
+    top:550px
+}
+.input {
+    display: flex;
+    flex-flow: column;
+}
+.create-btn {
+    padding: 5px 55px;
+    font-size: medium;
+}
+#account{
+    text-align:center;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    content:" ";
+    display: block;
+    color:rgb(145, 144, 144)
+}
+.bottom-links {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 50px
+}
+
+#create[type=button]{
+    width: 360px;
+    background-color: rgb(227, 225, 225);
+    border: 2px;
+}
+
+.footer-item{
+    font-size: small;
+    text-decoration: none;
+    color:blue;
+    margin-right: 15px ;
+}
+
+p{
+    text-align:center;
+    font-size: small;
+}
